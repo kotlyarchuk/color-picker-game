@@ -46,9 +46,16 @@ h3 {
 }
 
 .menu .newgame {
+  padding: 6px;
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.menu .newgame:hover {
+  background: #5373B6;
+  color: #fff;
+  cursor: pointer;
 }
 
 .menu .diff {
@@ -58,25 +65,26 @@ h3 {
   align-items: center;
 }
 
-.menu ul {
-  list-style: none;
+.menu .diff>div {
+  height: 100%;
 }
 
-.menu ul li {
-  display: inline-block;
+.menu .diff>div:hover {
+  background: #5373B6;
+  color: #fff;
+  cursor: pointer;
 }
 
-.menu ul li span {
-  display: inline-block;
+.menu .hard {
+  padding: 8px;
+  display: flex;
+  align-items: center;
 }
 
-.menu ul .hard {
-  padding-left: 8px;
-  border-left: 3px solid #5373B6;
-}
-
-.menu ul .easy {
-  padding-right: 8px;
+.menu .easy {
+  padding: 8px;
+  display: flex;
+  align-items: center;
 }
 
 
