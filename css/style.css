@@ -1,0 +1,102 @@
+h1, h2, h3, h4, h5, p, div, body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 42px;
+}
+
+.container {
+  background: #000;
+}
+
+.color {
+  font-size: 72px;
+}
+
+
+.title {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  width: 100vw;
+  padding: 25px 30vw;
+  margin: 0 auto;
+  background: #5373B6;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35vw;
+  margin: 0 auto;
+  color: #5373B6;
+  background: #fff;
+  font-family: "Baloo", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 40px;
+}
+
+.menu .newgame {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu .diff {
+  align-self: flex-end;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li span {
+  display: inline-block;
+}
+
+.menu ul .hard {
+  padding-left: 8px;
+  border-left: 3px solid #5373B6;
+}
+
+.menu ul .easy {
+  padding-right: 8px;
+}
+
+
+.main {
+  background: #000;
+  height: calc(100vh - 229px);
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 30vw;
+  margin: 0px auto;
+}
+
+.grid .block {
+  width: 180px;
+  height: 180px;
+  background: #fff;
+  border-radius: 15px;
+  margin: 10px;
+}
