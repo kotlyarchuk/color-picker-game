@@ -1,3 +1,7 @@
+/*******************************/
+/*           GENERAL           */
+/*******************************/
+
 h1, h2, h3, h4, h5, p, div, body, ul {
   margin: 0;
   padding: 0;
@@ -12,13 +16,22 @@ h3 {
   font-size: 42px;
 }
 
+.hide {
+  visibility: hidden;
+}
+
+/*******************************/
+/*           CONTENT           */
+/*******************************/
+
 .container {
   background: #000;
 }
 
-.color {
-  font-size: 72px;
-}
+
+/****************/
+/*     TITLE     */
+/****************/
 
 
 .title {
@@ -27,9 +40,17 @@ h3 {
   width: 100vw;
   padding: 25px 30vw;
   margin: 0 auto;
-  background: #5373B6;
+  background: rgb(60, 120, 180);
   color: #fff;
 }
+
+.color {
+  font-size: 72px;
+}
+
+/****************/
+/*     MENU     */
+/****************/
 
 .menu {
   display: flex;
@@ -53,7 +74,7 @@ h3 {
 }
 
 .menu .newgame:hover {
-  background: #5373B6;
+  background: rgb(60, 120, 180);
   color: #fff;
   cursor: pointer;
 }
@@ -70,7 +91,7 @@ h3 {
 }
 
 .menu .diff>div:hover {
-  background: #5373B6;
+  background: rgb(60, 120, 180);
   color: #fff;
   cursor: pointer;
 }
@@ -79,6 +100,8 @@ h3 {
   padding: 8px;
   display: flex;
   align-items: center;
+  color: #fff;
+  background: rgb(60, 120, 180);
 }
 
 .menu .easy {
@@ -87,6 +110,10 @@ h3 {
   align-items: center;
 }
 
+
+/****************/
+/*     MAIN     */
+/****************/
 
 .main {
   background: #000;
