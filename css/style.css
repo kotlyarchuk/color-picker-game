@@ -20,6 +20,11 @@ h3 {
   visibility: hidden;
 }
 
+.clicked {
+  background: rgb(60, 120, 180);
+  color: #fff;
+}
+
 /*******************************/
 /*           CONTENT           */
 /*******************************/
@@ -100,8 +105,6 @@ h3 {
   padding: 8px;
   display: flex;
   align-items: center;
-  color: #fff;
-  background: rgb(60, 120, 180);
 }
 
 .menu .easy {

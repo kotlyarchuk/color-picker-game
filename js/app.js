@@ -14,6 +14,7 @@ var gameDiff = "hard";
 
 colorBlocks();
 startGame(gameDiff);
+hard.classList.toggle("clicked");
 
 for (var i = 0; i < blocks.length; i++) {
   blocks[i].addEventListener("click", checkIfCorrect);
@@ -26,19 +27,15 @@ newGame.addEventListener("click", function(){
 easy.addEventListener("click", function(){
   gameDiff = "easy";
   startGame(gameDiff);
-  hard.style.background = "#fff";
-  hard.style.color = "rgb(60, 120, 180)";
-  this.style.background = "rgb(60, 120, 180)";
-  this.style.color = "#fff";
+  hard.classList.toggle("clicked");
+  easy.classList.toggle("clicked");
 });
 
 hard.addEventListener("click", function(){
   gameDiff = "hard";
   startGame(gameDiff);
-  easy.style.background = "#fff";
-  easy.style.color = "rgb(60, 120, 180)";
-  this.style.background = "rgb(60, 120, 180)";
-  this.style.color = "#fff";
+  hard.classList.toggle("clicked");
+  easy.classList.toggle("clicked");
 });
 
 
